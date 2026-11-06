@@ -1,0 +1,15 @@
+{
+  "title": "Events & News",
+  "intro": "Come meet us, meet the animals, and find out how you can help.",
+  "events": [
+    {
+      "title": "Example event: Adoption Day",
+      "date": "2026-12-12",
+      "time": "11:00 AM – 3:00 PM",
+      "location": "Add a location",
+      "description": "This is an example event. Replace it with a real one, or delete it. Past events move to the bottom of the page automatically.",
+      "image": "",
+      "link": ""
+    }
+  ]
+}

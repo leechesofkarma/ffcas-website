@@ -1,0 +1,16 @@
+{
+  "title": "Our Mission",
+  "lead": "Supporting our county’s municipal shelter to help turn shelter stays into second chances.",
+  "body": "<p>Every animal that enters FCAS is more than a kennel, a number, and a waiting period. They deserve to be seen, understood, cared for and whenever possible, given a chance to find a second home.</p><p>We are a dedicated volunteer-powered nonprofit committed to supporting FCAS and the animals who depend on their care. We bridge the gap between what a shelter can provide and what vulnerable animals truly need.</p><p>Through hands-on volunteer support, enrichment, socialization, adoption promotion, community outreach, fundraising and advocacy, we work to make shelter life better and help more animals make it safely from the shelter to a forever home.</p><p>We believe the shy animal hiding in the back, the frightened one who needs some time to trust, the overlooked senior and those who simply need someone to speak up for them are all worthy. We believe every animal deserves a champion – and we’re here to be theirs.</p><p>Our volunteers give their time, energy, compassion, and voices to animals who cannot advocate for themselves. We help them become more adoptable so that potential adopters see the wonderful individuals behind the kennel doors and help our community understand that saving lives is something we can accomplish together.</p><p><strong>Because every animal deserves better and every community can do more.</strong></p>",
+  "image": "",
+  "programs": [
+    { "title": "Hands-on volunteer support", "text": "Extra hands for the daily work that keeps shelter animals clean, comfortable, and cared for." },
+    { "title": "Enrichment", "text": "Toys, puzzles, and activities that keep minds busy and ease the stress of kennel life." },
+    { "title": "Socialization", "text": "Patient time with shy and frightened animals so they can learn to trust people again." },
+    { "title": "Adoption promotion", "text": "Photos, stories, and outings that help adopters meet the individual behind the kennel door." },
+    { "title": "Community outreach", "text": "Showing up at local events to share what the shelter needs and how neighbors can help." },
+    { "title": "Fundraising", "text": "Raising money for the supplies, care, and extras that a municipal budget can’t always cover." },
+    { "title": "Advocacy", "text": "Speaking up for the animals who can’t speak for themselves." }
+  ],
+  "team": []
+}

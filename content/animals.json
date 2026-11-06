@@ -1,0 +1,39 @@
+{
+  "title": "Meet the Animals",
+  "intro": "These are a few of the wonderful individuals waiting at FCAS. Every one of them deserves a second chance.",
+  "animals": [
+    {
+      "name": "Example Dog",
+      "type": "Dog",
+      "status": "Available",
+      "age": "Adult",
+      "sex": "Male",
+      "photo": "",
+      "story": "This is an example listing. Replace it with a real FCAS animal: add their photo, a few sentences about their personality, and a link to their adoption page.",
+      "link": "",
+      "featured": true
+    },
+    {
+      "name": "Example Cat",
+      "type": "Cat",
+      "status": "Available",
+      "age": "Senior",
+      "sex": "Female",
+      "photo": "",
+      "story": "This is an example listing. Overlooked seniors and shy cats are great ones to feature here.",
+      "link": "",
+      "featured": true
+    },
+    {
+      "name": "Example Pup",
+      "type": "Dog",
+      "status": "Foster needed",
+      "age": "Puppy",
+      "sex": "Female",
+      "photo": "",
+      "story": "This is an example listing. You can mark animals as Available, Foster needed, Pending, or Adopted!",
+      "link": "",
+      "featured": true
+    }
+  ]
+}

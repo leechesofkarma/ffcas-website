@@ -1,0 +1,38 @@
+{
+  "title": "How You Can Help",
+  "intro": "Saving lives is something we can accomplish together. Here are the ways you can be a champion for FCAS animals.",
+  "ways": [
+    {
+      "title": "Volunteer",
+      "icon": "hands",
+      "text": "Walk dogs, socialize cats, help with enrichment, take adoption photos, or lend a hand at events. Every hour makes shelter life better.",
+      "image": "",
+      "button_text": "Sign up to volunteer",
+      "button_link": ""
+    },
+    {
+      "title": "Donate",
+      "icon": "heart",
+      "text": "Your gift funds enrichment supplies, medical extras, adoption promotion, and the care that a shelter budget can’t always cover.",
+      "image": "",
+      "button_text": "Make a donation",
+      "button_link": ""
+    },
+    {
+      "title": "Shop our wishlist",
+      "icon": "gift",
+      "text": "Toys, treats, blankets, and enrichment supplies sent straight to the animals who need them.",
+      "image": "",
+      "button_text": "View the wishlist",
+      "button_link": ""
+    },
+    {
+      "title": "Adopt or foster",
+      "icon": "home",
+      "text": "The best way to give an animal a second chance is to give them a home, for a lifetime or just for a while.",
+      "image": "",
+      "button_text": "Meet the animals",
+      "button_link": "animals.html"
+    }
+  ]
+}

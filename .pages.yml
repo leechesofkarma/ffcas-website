@@ -1,0 +1,311 @@
+# Pages CMS configuration (https://pagescms.org)
+# This file controls the friendly editor. Each entry below becomes a menu item in the editor.
+
+media:
+  input: images
+  output: images
+  categories: [image]
+
+content:
+  # ---------------- SITE SETTINGS ----------------
+  - name: settings
+    label: Site Settings & Contact Info
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - name: org_name
+        label: Organization name
+        type: string
+        required: true
+      - name: short_name
+        label: Short name
+        type: string
+      - name: tagline
+        label: Tagline
+        type: text
+      - name: logo
+        label: Logo (optional. If empty, the name and a paw icon are shown)
+        type: image
+      - name: email
+        label: Contact email
+        type: string
+      - name: phone
+        label: Phone number
+        type: string
+      - name: mailing_address
+        label: Mailing address
+        type: text
+      - name: ein
+        label: EIN / Tax ID (shown in footer)
+        type: string
+      - name: nonprofit_note
+        label: Footer description
+        type: text
+      - name: donate_link
+        label: Donate link (PayPal, Zeffy, Givebutter, etc.)
+        type: string
+      - name: volunteer_link
+        label: Volunteer sign-up link (e.g. a Google Form)
+        type: string
+      - name: shelter_adoptables_link
+        label: Link to FCAS's full adoptable animals list
+        type: string
+      - name: facebook
+        label: Facebook page link
+        type: string
+      - name: instagram
+        label: Instagram link
+        type: string
+      - name: tiktok
+        label: TikTok link
+        type: string
+      - name: announcement
+        label: Announcement bar (top of every page)
+        type: object
+        fields:
+          - name: show
+            label: Show the announcement bar
+            type: boolean
+          - name: text
+            label: Message
+            type: string
+          - name: link_text
+            label: Link text
+            type: string
+          - name: link
+            label: Link (web address or page like help.html)
+            type: string
+
+  # ---------------- HOME ----------------
+  - name: home
+    label: Home Page
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - name: hero_title
+        label: Big headline
+        type: string
+      - name: hero_text
+        label: Text under the headline
+        type: text
+      - name: hero_image
+        label: Main photo
+        type: image
+      - name: intro_title
+        label: Who we are section – heading
+        type: string
+      - name: intro_text
+        label: Who we are section – text
+        type: rich-text
+        options:
+          format: html
+      - name: intro_image
+        label: Who we are section – photo
+        type: image
+      - name: belief_quote
+        label: Quote in the green band
+        type: text
+      - name: closing_text
+        label: Closing message (yellow band at bottom)
+        type: text
+
+  # ---------------- ABOUT ----------------
+  - name: about
+    label: About Page
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: lead
+        label: Intro line
+        type: text
+      - name: body
+        label: Mission text
+        type: rich-text
+        options:
+          format: html
+      - name: image
+        label: Photo
+        type: image
+      - name: programs
+        label: What we do
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: text
+            label: Short description
+            type: text
+      - name: team
+        label: Team members (leave empty to hide this section)
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: photo
+            label: Photo
+            type: image
+          - name: bio
+            label: Short bio
+            type: text
+
+  # ---------------- ANIMALS ----------------
+  - name: animals
+    label: Animals
+    type: file
+    path: content/animals.json
+    format: json
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: intro
+        label: Intro text
+        type: text
+      - name: animals
+        label: Animals
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+            required: true
+          - name: photo
+            label: Photo
+            type: image
+          - name: type
+            label: Type
+            type: select
+            options:
+              values: [Dog, Cat, Other]
+          - name: status
+            label: Status
+            type: select
+            options:
+              values: [Available, Foster needed, Pending, Adopted!]
+          - name: age
+            label: Age
+            type: select
+            options:
+              values: [Puppy, Kitten, Young, Adult, Senior]
+          - name: sex
+            label: Sex
+            type: select
+            options:
+              values: [Male, Female]
+          - name: story
+            label: About this animal
+            type: text
+          - name: link
+            label: Link to adoption listing (optional)
+            type: string
+          - name: featured
+            label: Show on the home page (first 3 are shown)
+            type: boolean
+
+  # ---------------- EVENTS ----------------
+  - name: events
+    label: Events & News
+    type: file
+    path: content/events.json
+    format: json
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: intro
+        label: Intro text
+        type: text
+      - name: events
+        label: Events
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Event name
+            type: string
+            required: true
+          - name: date
+            label: Date
+            type: date
+          - name: time
+            label: Time (e.g. 11:00 AM – 3:00 PM)
+            type: string
+          - name: location
+            label: Location
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: image
+            label: Photo or flyer (optional)
+            type: image
+          - name: link
+            label: Link for more info (optional)
+            type: string
+
+  # ---------------- HOW TO HELP ----------------
+  - name: help
+    label: How to Help Page
+    type: file
+    path: content/help.json
+    format: json
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: intro
+        label: Intro text
+        type: text
+      - name: ways
+        label: Ways to help (first 4 also show on the home page)
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              values: [heart, hands, gift, home, paw, star, calendar, megaphone]
+          - name: text
+            label: Description
+            type: text
+          - name: image
+            label: Photo
+            type: image
+          - name: button_text
+            label: Button text
+            type: string
+          - name: button_link
+            label: Button link
+            type: string
+
+  # ---------------- CONTACT ----------------
+  - name: contact
+    label: Contact Page
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: intro
+        label: Intro text
+        type: text

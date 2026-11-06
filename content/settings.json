@@ -1,0 +1,23 @@
+{
+  "org_name": "Friend Of Forsyth County Animal Shelter",
+  "short_name": "Friends of FCAS",
+  "tagline": "Supporting our county’s municipal shelter to help turn shelter stays into second chances.",
+  "logo": "",
+  "email": "",
+  "phone": "",
+  "mailing_address": "",
+  "ein": "",
+  "nonprofit_note": "A volunteer-powered nonprofit supporting Forsyth County Animal Shelter (FCAS).",
+  "donate_link": "",
+  "volunteer_link": "",
+  "shelter_adoptables_link": "",
+  "facebook": "",
+  "instagram": "",
+  "tiktok": "",
+  "announcement": {
+    "show": true,
+    "text": "Welcome to our new website! Follow along as we share adoptable animals, events, and ways to help.",
+    "link_text": "Ways to help",
+    "link": "help.html"
+  }
+}
