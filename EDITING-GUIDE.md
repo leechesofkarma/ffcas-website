@@ -41,6 +41,14 @@ Events sort themselves by date. Once the date passes, an event automatically mov
 ## Change words or photos on a page
 Click the page name (Home Page, About Page, How to Help Page, Contact Page), edit the text or click a photo to replace it, and click **Save**.
 
+**To change the large home-page photo:**
+1. Open **Home Page**, then the **Main photo** field.
+2. Select an existing photo, or upload one and select it for this field.
+3. Return to the Home Page form and click **Save** for the page.
+4. Allow a few minutes for publishing, then refresh the website.
+
+Uploading a photo to Media only stores it in the library. It does not put it on a page until you select it in that page's photo field and save the page.
+
 ## Update contact info, donate link, or social media
 These are all in **Site Settings & Contact Info**. Anything left blank is simply hidden on the site.
 
